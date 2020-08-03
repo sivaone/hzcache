@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cachepoc
+#server:
+#  port: ${random.int(8000,8100)}
+logging:
+  level:
+    root: INFO
+    org.springframework.cache: TRACE
